@@ -17,3 +17,90 @@ body{
 .jarak{
     padding:0 2pc;
 }
+.menu {
+    background-color: #417aa8;
+    width: 90%;
+    margin: 10px auto;
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 0 20px;
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+}
+
+.menu ul li a:hover {
+    background-color: #4b88bb;
+}
+
+.menu::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    gap: 20px;
+}
+
+.content-kiri {
+    flex: 7;
+}
+
+.sidebar {
+    flex: 3;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ccc;
+    height: fit-content;
+}
+
+.box {
+    background-color: white;
+    border: 1px solid #417aa8;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.box h3 {
+    margin-top: 0;
+    color: #417aa8;
+}
+
+.list-sidebar {
+    list-style: none;
+    padding: 0;
+}
+
+.list-sidebar li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.list-sidebar li a {
+    text-decoration: none;
+    color: #417aa8;
+    font-weight: bold;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    color: #333;
+}
