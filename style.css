@@ -1,27 +1,36 @@
-body{
- background:#f3f3f3;
- color:#333;
- width:100%;
- font-family:sans-serif;
- margin:0 auto;
+body {
+    background-color: pink; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-.header{
-   width:90%;
-   margin:auto;
-   heigth:120px;
-   line-height:120px;
-   background:#417aa8;
-   color:#fff;
+body {
+    background-color: pink; 
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
 }
-.jarak{
-    padding:0 2pc;
+
+.header {
+    width: 90%;
+    margin: 20px auto 10px auto;
+    height: 120px;
+    line-height: 120px;
+    background: #417aa8;
+    color: white;
 }
+
+.jarak {
+    padding: 0 30px;
+}
+
 .menu {
     background-color: #417aa8;
     width: 90%;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
     height: 50px;
+    border-radius: 8px 8px 0 0;
 }
 
 .menu ul {
@@ -103,4 +112,30 @@ body{
     text-align: center;
     padding: 20px;
     color: #333;
+}
+.footer-box {
+    background-color: #417aa8; 
+    color: white;          
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: left;
+    width: 90%;
+    margin: 20px auto;
+    box-sizing: border-box;
+}
+.wrapper-kuning {
+    background-color: #fff9c4; 
+    width: 90%;          
+    margin: 0 auto 20px auto; 
+    padding: 20px 0;          
+    border-radius: 0 0 8px 8px;
+    border: 1px solid #e6e600;
+}
+
+.wrapper-kuning .container {
+    width: 95%; 
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
 }
